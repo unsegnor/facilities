@@ -1,0 +1,20 @@
+{
+  "name": "u4_facilities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --tags @test",
+    "test-adapters": "mocha adapters/**/*.spec.js"
+  },
+  "author": "",
+  "license": "GPL-V3.0",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "node-persist": "^3.0.1"
+  }
+}
